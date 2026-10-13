@@ -245,3 +245,23 @@ code, pre { background: rgba(0,0,0,0.25); padding: 2px 6px; border-radius: 8px; 
 .retro-peedy-link { display: inline-block; padding: 4px; }
 .retro-peedy-link img { max-width: 100%; height: auto; image-rendering: auto; }
 .retro-peedy-link:focus-visible { outline: 3px dashed #ffff66; }
+
+/* Complete classic World Wide Web makeover */
+body{background:#000080;color:#fff;font-family:"Times New Roman",serif;background-image:radial-gradient(#2222a0 1px,transparent 1px);background-size:12px 12px}
+a{color:#ffff00;text-decoration:underline}a:visited{color:#ff99ff}p{color:#fff}
+h1{font-family:Georgia,serif;font-size:clamp(3rem,7vw,5rem);color:#ffff00;text-align:center;text-shadow:3px 3px #ff00cc}
+h2{color:#00ffff;font-family:Georgia,serif}
+.nav{position:static;background:#000050;border-bottom:5px ridge silver;backdrop-filter:none}
+.logo{color:white}.logo-mark{border-radius:0;background:#ffff00;color:#000}
+.nav-links a{border:2px outset #ccc;border-radius:0;background:#0000aa;color:#ffff00}
+.nav-cta,.btn,.btn-primary{border-radius:0;background:#c0c0c0;color:#000;border:3px outset white}
+.old-web-banner{padding:12px;margin-bottom:16px;text-align:center;border:5px ridge silver;background:#ffff00;color:#000080;font:bold 1.4rem Georgia,serif}
+.hero{background:#000066;border:5px ridge silver;border-radius:0;text-align:center}
+.hero .badge{border-radius:0;background:#000;color:#00ffff;border:2px dashed yellow}
+.hero p{color:white}.retro-intro{color:#00ff00!important;font:bold 1.6rem "Courier New",monospace}
+.hero-peedy{display:block;padding:14px;border:3px dotted yellow}
+.hero-peedy img{width:176px;max-width:100%;height:auto;image-rendering:auto}
+.card,.panel{background:#000066;border:4px ridge silver;border-radius:0}
+.card p,.card h3{color:white}.card .icon{border-radius:0;background:#ffff00;color:#000}
+.footer{background:#000050;border-top:5px ridge silver}
+.retro-panel,.retro-web-footer{background:#000040}
