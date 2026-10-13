@@ -265,3 +265,6 @@ h2{color:#00ffff;font-family:Georgia,serif}
 .card p,.card h3{color:white}.card .icon{border-radius:0;background:#ffff00;color:#000}
 .footer{background:#000050;border-top:5px ridge silver}
 .retro-panel,.retro-web-footer{background:#000040}
+
+/* Restore original Big A Software font across the redesigned site. */
+body,h1,h2,h3,.logo,.old-web-banner,.retro-intro,.retro-panel,.retro-web-footer,.retro-browser-badge{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
