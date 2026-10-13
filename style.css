@@ -218,3 +218,30 @@ p { margin: 10px 0; color: rgba(232,238,247,0.92); }
 /* “Everything linked” helper */
 .small { font-size: 0.95rem; opacity: 0.9; }
 code, pre { background: rgba(0,0,0,0.25); padding: 2px 6px; border-radius: 8px; }
+
+/* Nostalgic 1990s-style web details; core site design preserved. */
+.retro-panel, .retro-web-footer {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  border: 3px ridge #c0c0c0;
+  background: #10133e;
+  color: #fefefe;
+  padding: 20px 14px;
+  margin: 22px auto 0;
+}
+.retro-panel p, .retro-web-footer p { color: #fff; }
+.retro-panel a, .retro-web-footer a:not(.retro-peedy-link) { color: #ffff66; text-decoration: underline; }
+.retro-title { color: #ffff66; font-weight: 900; font-size: 1.15rem; text-shadow: 2px 2px #8b008b; }
+.retro-note { font-size: .85rem; }
+.retro-web-footer { max-width: 980px; }
+.retro-browser-badges { display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.retro-browser-badge { width: 110px; min-height: 42px; border: 3px outset #ddd; display: inline-flex; align-items: center; justify-content: center; gap: 3px; background: #fff; color: #111; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; line-height: 1; }
+.netscape-badge { background: #003b67; color: white; }
+.netscape-badge small { display: block; font-size: 9px; width: 39px; }
+.netscape-badge strong { font-size: 14px; color: #ffef46; }
+.ie-badge b { color: #168dc5; font-size: 34px; font-style: italic; }
+.ie-badge span { font-size: 12px; text-align: left; }
+.retro-parrot-caption { font-weight: bold; }
+.retro-peedy-link { display: inline-block; padding: 4px; }
+.retro-peedy-link img { max-width: 100%; height: auto; image-rendering: auto; }
+.retro-peedy-link:focus-visible { outline: 3px dashed #ffff66; }
